@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+body{
+    background-color: rgb(49, 47, 47);
+    height: 630px;
+
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main>.left{
+    background-color: rgb(133, 92, 46);
+    display: inline-block;
+    width: 704px;
+    height: 491px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 0px;
+
+}
+main>.rigth{
+    background-color: rgb(46, 92, 133);
+    float: right;
+    width: 595px;
+    height: 491px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+nav>div{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(126, 95, 59);
+    color: black;
+    text-transform: uppercase;
+    margin: 3px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: 250px;
+    font-size: 20pt;
+    font-family: monospace;
+    padding: 1px;
+}
+nav>div:hover{
+    border: 1px solid rgb(122, 98, 69);
+    background-color: rgb(133, 92, 46);
+    color: white; 
+    transition: 0.1s;
+    
+    
+}
+nav.btn2{
+    position: relative;
+    left: 30px;
+    
+}
+nav.btn3{
+    position: relative;
+    left: 90px;
+    
+}
+aside#botao{
+   width: 600px;
+   margin: auto;
+} 
+.perguntas{
+    text-align: center;
+    position: relative;
+    top: 130px;
+    font-size: 20pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+aside>div.vida{
+    float: right;
+    position: relative;
+    right: 200px;
+}
+section>div.tentativas{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+section>div.sugestao{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+footer{
+    background-color: rgb(47, 80, 102);
+    text-align: center;
+}
+main{  
+}

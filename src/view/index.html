@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <main>
+        <header>
+        <h1>welcome to the hangman game</h1>
+        </header>
+        <section class="left">
+            <div class="tentativas"><h2>tentativas: <span>aaaaa</span> </h2></div>
+            
+            <div class="sugestao"><h2>sugestão: <span class="spansuggest" style="color: rgb(46, 92, 133);"></span> </h2></div>
+
+            <div class="perguntas">
+                <p>
+                    aqui vem as questões
+                </p>
+            </div>
+            <aside id="botao">
+                <nav class="btn1">
+                    <div>q</div><div>w</div><div>e</div>
+                    <div>r</div><div>t</div><div>y</div>
+                    <div>u</div><div>i</div><div>o</div>
+                    <div>p</div>
+                </nav>
+                <nav class="btn2">
+                    <div>a</div><div>s</div><div>d</div>
+                    <div>f</div><div>g</div><div>h</div>
+                    <div>j</div><div>k</div><div>l</div>
+                </nav>
+                <nav class="btn3">
+                    <div>z</div><div>x</div><div>c</div>
+                    <div>v</div><div>b</div><div>n</div>
+                    <div>m</div>
+                </nav>
+                
+            </aside>
+        </section>
+        <aside class="rigth">
+            <div class="vida"><h2>vida: <span>00</span> </h2></div>
+            <img src="../../mult-media/img/perdendo/perdendo001.png" alt="Imagem do perdedor" class="perdedor">
+        </aside>
+    </main>
+    <footer>
+        BY: Mandela Jr
+    </footer>
+    <script src="../Controller/forcaController.js"></script>
+</body>
+</html>
