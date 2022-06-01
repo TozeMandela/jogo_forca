@@ -27,8 +27,29 @@ main>.left{
     margin-right: 0px;
 
 }
+main>.lefts{
+    background-color: rgb(67, 212, 212);
+    display: inline-block;
+    color: rgb(235, 67, 67);
+    width: 704px;
+    height: 491px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 0px;
+
+}
 main>.rigth{
     background-color: rgb(46, 92, 133);
+    float: right;
+    width: 595px;
+    height: 491px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+main>.rigths{
+    background-color: rgb(240, 51, 51);
+    color: rgb(67, 212, 212);
     float: right;
     width: 595px;
     height: 491px;
@@ -50,6 +71,7 @@ nav>div{
     font-size: 20pt;
     font-family: monospace;
     padding: 1px;
+    left: 30px;
 }
 nav>div:hover{
     border: 1px solid rgb(122, 98, 69);
@@ -59,18 +81,22 @@ nav>div:hover{
     
     
 }
+nav>div.space{
+    width: 100px;
+    padding: 3px;
+}
 nav.btn2{
     position: relative;
-    left: 30px;
+    left: 0px;
     
 }
 nav.btn3{
     position: relative;
-    left: 90px;
+    left: 0px;
     
 }
 aside#botao{
-   width: 600px;
+   width: 800px;
    margin: auto;
 } 
 .perguntas{
@@ -82,9 +108,8 @@ aside#botao{
 
 }
 aside>div.vida{
-    float: right;
     position: relative;
-    right: 200px;
+    left: 200px;
 }
 section>div.tentativas{
     text-align: center;
