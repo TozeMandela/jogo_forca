@@ -336,15 +336,15 @@ function isWin(arrT, arr2){
         return element!=='_';
     });
     if(aux){
-        let idInterval;
         if (isEquals(arrT,arr2)) {
-            selectedImg(0);
+            indexImg = 0;
+            selectedImg(indexImg);
             let aux = Number($pontuacao.innerHTML);
             $pontuacao.innerHTML = aux+1;
             Ctjogo = true;
-            
         }
         if (Ctjogo) {
+            selectedImg(indexImg);
             initJogo(Ctjogo)
         }
         
@@ -441,6 +441,7 @@ button.forEach(btn=>{
       
 });
 function initJogo(boll){
+    selectedImg(indexImg);
     console.log('entrei...')
     indexImg = 6;
     indexImg =6;
