@@ -85,6 +85,11 @@ nav>div.space{
     width: 100px;
     padding: 3px;
 }
+nav.btn0{
+    position: relative;
+    left: -30px;
+    
+}
 nav.btn2{
     position: relative;
     left: 0px;

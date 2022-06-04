@@ -346,6 +346,7 @@ function isWin(arrT, arr2){
         if (Ctjogo) {
             selectedImg(indexImg);
             initJogo(Ctjogo)
+            Ctjogo=false;
         }
         
     }
